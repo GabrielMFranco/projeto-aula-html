@@ -26,6 +26,9 @@ h2{
     padding: 15px;
     
 }
+main{
+    max-width: 869px;
+    margin: auto;
 nav{
     text-align: left;
     background-color: #D91E41;
@@ -33,6 +36,7 @@ nav{
     padding-bottom:20px;
     margin: 30px;
     border-radius: 10px;
+    min-width: 500p;
     
 }
 a{
