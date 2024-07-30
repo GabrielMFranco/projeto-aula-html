@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px ;
+    margin: 0px;
+}
+body, html{
+    height: 100vh;
+    width: 100vw;
+    /*background-image:linear-gradient(to right top, rgb(44, 9, 170),  rgba(44, 9, 170, 0.473),90%, rgb(44, 9, 170))*/
+    background-color: #30348C;
+}
+header{
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+}
+h2{
+    font-size: 2em;
+    text-indent: 30px;
+    color: #308C3E;
+}
+ul{
+    display: block;
+    margin: auto;
+}
+li{
+
+}
+a{
+    text-decoration: none;
+    padding:20px;
+    display: ;
+    color: white;
+}
+
