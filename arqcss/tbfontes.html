@@ -4,8 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes</title>
+    <link rel="stylesheet" href="../estilos/tbfontes.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Tipos de Fontes</h1>
+    </header>
+    <main>
+        <article>
+            <h2>Importando Fontes</h2>
+            <p>Para pegar fontes importadas podemos utilizar o <a href="https://fonts.google.com/?preview.layout=grid" target="_blank">GoogleFonts</a> ou o <a href="https://www.dafont.com/pt/" target="_blank">Dafont</a>.</p>
+            <p>O próprio site gera um código pra você colar no seu HTML/CSS.</p>            
+        </article>
+        <aside>
+            <h3>Exemplo de Código:</h3>
+            <p>no topo do seu arquivo CSS, adicionar a URL da fonte fornecida pelo site:</p>
+            <p class="codigo">@import url('https:fonts.google....');</p>
+            <p>Em seguida para adicionar a fonte é só copiar o nome da fonte que também é fornecida pelo site e colar no seu font-famili</p> 
+            
+            <h3>Fontes Baixadas:</h3>
+            <p>para adicionar a importação devemos adicionar a pasta da fonte junto com o arquivo do projeto e depois adicionala ao css: :</p>
+            <p class="codigo">@font-face</p>
+            <p class="codigo">font-family: 'nome da fonte'</p>
+            <p class="codigo">src: url('/caminho do arquivo') format('opentype');</p>
+            <p class="codigo">font-weight: normal;</p>
+           
+            </p>
+        </aside>
+    </main>
 </body>
 </html>
