@@ -40,7 +40,7 @@ nav{
     min-width: 500p;
     
 }
-a{
+main a{
     display: inline-block;
     width: 200px;
     white-space: nowrap;
@@ -55,8 +55,19 @@ a{
     background-color: #30348C;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
 }
-a:hover{
+main a:hover{
     background-color: yellow;
     color: #30348C;
     font-weight: bolder;
 }
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1em;
+    padding: 15px;
+    border: none;
+}
+a#gh{
+    color: #308C3E;
+} 
