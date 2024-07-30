@@ -34,12 +34,6 @@ nav{
     border-radius: 10px;
     
 }
-nav#css{
-
-}
-nav#html{
-
-}
 a{
     display: inline-block;
     width: 200px;
@@ -58,5 +52,6 @@ a{
 a:hover{
     background-color: yellow;
     color: #30348C;
+    font-weight: bolder;
     
 }
