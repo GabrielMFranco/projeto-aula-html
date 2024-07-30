@@ -12,6 +12,7 @@ body, html{
 }
 header{
     color: whitesmoke;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
     text-align: center;
     padding: 30px;
 }
@@ -25,7 +26,9 @@ h2{
     
 }
 nav{
+    text-align: left;
     background-color: #D91E41;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
     padding-bottom:20px;
     margin: 30px;
     border-radius: 10px;
@@ -38,12 +41,22 @@ nav#html{
 
 }
 a{
+    display: inline-block;
+    width: 200px;
     white-space: nowrap;
     text-decoration: none;
-    margin: 10px;
+    margin: 15px;
     padding: 15px;
     color: white;
+    text-align: center;
+    
     border: 1px solid black;
+    border-radius: 6px;
+    background-color: #30348C;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.507);
+}
+a:hover{
+    background-color: yellow;
+    color: #30348C;
     
 }
-
