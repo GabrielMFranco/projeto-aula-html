@@ -4,18 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabalhando com Cores</title>
+    <link rel="stylesheet" href="../estilos/tbcores.css">
 </head>
 <body>
     <header>
         <h1>Trabalhando com Cores</h1>
-        <p>Segue algumas anotações referente ao uso das cores em CSS/HTML.</p>
     </header>
     <main>
-        <section>
+        <p>Para preparar uma boa paleta de cores podemos utilizar  de base as paletas fornecidas pelo <a href="https://color.adobe.com/pt/"target="_blank">Adobe Color</a>.</p>
+        <p>Para o background da página podemos usar cores com degrade utilizando o código abaixo, podendo ser linear-gradient(linha),radial-gradient(circulo), podendo alterar a % de cada cor. :</p>
+        <p class="cod">background-image:linear-gradient</p>
+        <h2>Usando degrade em textos:</h2>
+        <p>Para passar o efeito degrade para o texto basta colocar o efeito no background, usar <i>background-clip:text;</i> para passar ele pro texto, em alguns casos devemos colocar <i>-webkit-background-clip:text;</i> devivo a compatibilidade com alguns navegadores, ai deixamos a cor texto em trasparente para aparecer a cor:</p>
+        <p class="cod">
+            background-image: degrade;
+            background-clip:text;
+            -webkit-background-clip:text;
+            color:transparent;
+        </p>
+
+        <p>Tipos de cores:</p>
+        <dl>
+            <dt>Complementares</dt><dd>Aquelas que possuiem maior contrase</dd>      
+            <dt>Analogas</dt><dd></dd>
+            <dt>Analogas relacionadas</dt><dd></dd>
+            <dt>Intercaladas</dt><dd></dd>
+            <dt>Triadicas</dt><dd></dd>
+            <dt>Tetrádicas</dt><dd></dd>
+            <dt>Monocromatica</dt><dd></dd>
+        </dl>
             <h2>Paleta de Cores</h2>
-            <!--imagem-->
-            
-        </section>
+            <div>
+                <img src="../imagens/paleta de cores.png" alt="circulo cromatico">
+            </div>
+    </main>         
     </main>
 </body>
 </html>
