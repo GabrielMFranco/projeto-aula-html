@@ -23,6 +23,7 @@ header{
     background-color: #040d22;
     color: white;
     padding: 30px;
+    margin-bottom: 20px;
 }
 h1{
     background-image: linear-gradient(to right, rgb(149,114,252),rgb(67,231,173),rgb(226,212,92));
@@ -42,8 +43,6 @@ h2{
 a{
     color: rgb(40, 233, 14); 
 }
-
-}
 p{
     margin: 10px 0px;
     text-indent: 40px;
@@ -59,8 +58,10 @@ p.cod{
     color:red;
 }
 div{
+    text-align: center;
     padding: 30px;
 }
 img{
+    padding-top: 20px;
     height: 200px;
 }
