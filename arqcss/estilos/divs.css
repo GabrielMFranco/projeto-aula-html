@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    background-color: gray;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+main{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2{
+    text-align: center;
+    margin: 20px 30px 0px 30px ;
+    background-color: rgb(159, 203, 241);
+    width: 450px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+h2.grupo{
+    text-indent: 0px;
+    text-align: center;
+    margin: 20px 30px 0px 30px ;
+    background-color: rgb(159, 203, 241);
+    width: 450px;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+p, dl{
+    text-indent: 40px;
+    font-size: 1.1em;
+    margin: 5px 0px;
+}
+dl{
+    font-style: italic;
+    font-weight: 500;
+}
+dd{
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+abbr{
+    text-decoration: none;
+}
+ul{
+    padding: 5px;
+    background-color:cadetblue;
+    width: 450px;
+    margin-left: 30px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
+
+}
+li{
+    margin-left: 50px;
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight: bolder;        
+}
+li:hover{
+    color: red;
+    
+}
+div.container{
+    background-color: rgb(148, 169, 187);
+    font-weight: bolder;
+    margin: auto;
+    width: 70vw;
+    height: 100px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+div.item{
+    height: 40px;
+    margin: 5px;
+    background-color: chartreuse;  
+}
+
