@@ -21,28 +21,31 @@
             </dl>
             <p>'flex-direction: row' => O main-axis é no eixo horizontal, cross-axis no eixo vertical .</p>
             <p>'flex-direction: collumn' => O main-axis é no eixo vertical, cross-axis no eixo horizontal</p>
-            <h2 class="grupo">Alinhamento do eixo principal</h3>
-            <ul>
-                <li><abbr title="O bloco não quebra o conteudo se diminuir o caitainer pai">flex-wrap: nowrap; </abbr> 
-                <li><abbr title="O ultimo elemento é quebrado no sentido do coss-axis">flex-wrap: wrap;</abbr> 
-                <li><abbr title="o ultimo elemento quebra pra cima">flex-wrap: wrap-reverse;</abbr>
-                <li><abbr title="Não deixa espaço sem preencher (só funciona no principal)">flex: auto;</abbr>               
-            </ul>
+            <div>
+                <h2 class="grupo">Alinhamento do eixo principal</h3>
+                <ul>
+                    <li><abbr title="O bloco não quebra o conteudo se diminuir o caitainer pai">flex-wrap: nowrap; </abbr>
+                    <li><abbr title="O ultimo elemento é quebrado no sentido do coss-axis">flex-wrap: wrap;</abbr>
+                    <li><abbr title="o ultimo elemento quebra pra cima">flex-wrap: wrap-reverse;</abbr>
+                    <li><abbr title="Não deixa espaço sem preencher (só funciona no principal)">flex: auto;</abbr>
+                </ul>
+                <h2 class="grupo">Alinhamento no eixo principal</h2>
+                <ul>
+                    <li><abbr title="o primeiro item fica grudado no main-start">justify-content: flex-start;</abbr></li>
+                    <li><abbr title=" ultimo item fica grudado no main-end">justify-content: flex-end;</abbr></li>
+                    <li><abbr title="alinhado no main-axis">justify-content: center; </abbr></li>
+                    <li><abbr title=" os da pontas grudado nas pontas e o meio dividido igualmente"></abbr>justify-content: space-beteen;</li>
+                    <li><abbr title=" todos sepadaros igualemente.">justify-content: space-evenly</abbr></li>
+                    <li><abbr title="usa todo o espaço do container e divide o espaço pelo numero de itens dentro, deixando todos centralizados nesse espaço.">justify-content:space-around;</abbr></li>
+                </ul>
+            </div>
             <div class="container">
                 <div class="item">Caixa 1</div>
                 <div class="item">Caixa lula</div>
                 <div class="item">Caixa 3</div>
             </div>
-            <h2 class="grupo">Alinhamento no eixo principal</h2>
-            <ul>
-                <li><abbr title="o primeiro item fica grudado no main-start">justify-content: flex-start;</abbr></li>
-                <li><abbr title=" ultimo item fica grudado no main-end">justify-content: flex-end;</abbr></li>
-                <li><abbr title="alinhado no main-axis">justify-content: center; </abbr></li>
-                <li><abbr title=" os da pontas grudado nas pontas e o meio dividido igualmente"></abbr>justify-content: space-beteen;</li>
-                <li><abbr title=" todos sepadaros igualemente.">justify-content: space-evenly</abbr></li>
-                <li><abbr title="usa todo o espaço do container e divide o espaço pelo numero de itens dentro, deixando todos centralizados nesse espaço.">justify-content:space-around;</abbr></li>
-            </ul>
-            <h2 class="grupo">Alinhamento no eixo trasnversal</h2>
+            
+            <h2 class="grupo">Alinhamento no eixo transversal</h2>
             <ul>
                 <li><abbr title="Estica os elementos">align-items: stretch;</abbr></li>
                 <li><abbr title="gruda no inicio do eixo transversal">align-items: flex-start;</abbr></li>
