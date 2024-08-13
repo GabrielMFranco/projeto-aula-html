@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="../estilos/mq.css">
 </head>
 <body>
-    
+    <header>
+        <h1>Media Querys</h1>
+    </header>
+    <section>
+        <p>É uma ferramenta que torna o disegn web flexível e adaptável dependendo da tela que o conteúdo esteja sendo reproduzido.</p><br>
+        <p><i style=color:yellow>EXEMPLO-</i> Se estiver sendo reproduzido na tela de um celular, o estilo do site vai estar apadtado para aquela resolução, evitando algumas configurações que não sejam agradaveis para o usuário daquele dispositivo, como por exemplo as barras laterais ou imagens cortadas.</p><p>Se o usuraio for imprimir a pagina web do seu conteúdo, ela estaria apadtada para a impressão, remorendo cores, algumas posições que não terial significados na impressão, entre outros.</p>
+        <h2>Tipos comuns de Media Queries</h2>
+        <ul>
+            <li><abbr title="max-width e min-width">Largura da Tela</abbr></li>
+            <li><abbr title="max-height e min-height">Altura da Tela</abbr></li>
+            <li><abbr title="landscape(largura > altura) ou portrait(altura > largura)">Orientação</abbr></li>
+            <li><abbr title="Define estolos beseado na densidade de pixels">Resolução</abbr></li>
+            <li><abbr title="screen ou print">Tipo de Dispositivo</abbr></li>
+        </ul>
+        <div id="exemplo">
+            <pre>
+                <code>
+                    /* Estilos para celular */
+                    <red style="color:red">
+                    @media screen and (min-width:768px) and (max-width:992px){
+                    section#login{</red>
+                            width:90vw;
+                            height: 300px;
+                        }
+                        section#login > div#imagem{
+                            float: right;
+                            width: 30%;
+                            height: 100%;
+                        }
+                    }
+                    /* Para telas grandes */
+                    <red style="color:red">@media screen and (min-width:992px)</red>{
+                        body{
+                            background-image: linear-gradient(to top right,#E53E1A... );
+                            background-attachment: fixed;
+                            font-size: 1.2em;
+                        }
+                    }
+                </code>
+            </pre>
+        </div>
+    </section>
+   
 </body>
 </html>
